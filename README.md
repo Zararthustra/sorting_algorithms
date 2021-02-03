@@ -1,8 +1,8 @@
 # sorting_algorithms
 
-# Function
+## Function
 
-Bubble sort : Function that sorts an array of integers in ascending order using the Bubble sort algorithm.
+*Bubble sort* : Simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
 Insertion sort : Function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm.
 
@@ -11,8 +11,6 @@ Selection sort : Function that sorts an array of integers in ascending order usi
 Quick sort : Function that sorts an array of integers in ascending order using the Quick sort algorithm.
 
 Counting sort : Function that sorts an array of integers in ascending order using the Counting sort algorithm.
-
-Radix sort : Function that sorts an array of integers in ascending order using the Radix sort algorithm.
 
 # Prototype and file:
 Check function.
