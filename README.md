@@ -1,47 +1,17 @@
-# sorting_algorithms
+# Sorting algorithms & Big O notation
 
 ## Function
 
-*Bubble sort* : Simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+**Bubble sort** : Simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+**Big O : O(n + k)**
 
-Insertion sort : Function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm.
+**Insertion sort** : Iterates, consuming one input element each repetition, and grows a sorted output list. At each iteration, insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain.
 
-Selection sort : Function that sorts an array of integers in ascending order using the Selection sort.
+**Selection sort** : Divides the input list into two parts: a sorted sublist of items which is built up from left to right at the front (left) of the list and a sublist of the remaining unsorted items that occupy the rest of the list.
 
-Quick sort : Function that sorts an array of integers in ascending order using the Quick sort algorithm.
+**Quick sort** : A divide-and-conquer algorithm used with **Lomuto scheme partition**. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
 
-Counting sort : Function that sorts an array of integers in ascending order using the Counting sort algorithm.
-
-# Prototype and file:
-Check function.
-
-void print_array(const int *array, size_t size);
-
-void print_list(const listint_t *list);
-
-Sort function
-
-void bubble_sort(int *array, size_t size);
-
-void insertion_sort_list(listint_t * *list);
-
-void selection_sort(int *array, size_t size);
-
-void quick_sort(int *array, size_t size);
-
-void counting_sort(int *array, size_t size);
-
-int get_max_value(int *array, size_t size);
-
-int *create_index_count_array(int *array, size_t size, int max_val);
-
-int *copy_array(int *array, size_t size);
-
-void radix_sort(int *array, size_t size);
-
-void counting_sort_idx(int *array, size_t size, int exp);
-
-int *copy_array_position(int *array, size_t size, int exp);
+**Counting sort** : Creates a cumul array of the input array integers, then sorts it by reference.
 
 
 # Contributor :
