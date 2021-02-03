@@ -75,8 +75,6 @@ size_t lomuto_scheme(int *array, size_t size, int low, int high)
 		}
 		j++;
 	}
-	}
-	}
 
 	if (array[high] < array[i])
 	{
