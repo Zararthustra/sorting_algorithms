@@ -2,8 +2,8 @@
 
 # Requirement
 
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 14.04 LTS
+Allowed editors: vi, vim, emacs/n
+All your files will be compiled on Ubuntu 14.04 LTS\n
 Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 All your files should end with a new line
 A README.md file, at the root of the folder of the project, is mandatory
