@@ -26,11 +26,10 @@ Counting sort : Function that sorts an array of integers in ascending order usin
 Radix sort : Function that sorts an array of integers in ascending order using the Radix sort algorithm
 
 # Prototype and file:
-/* Print funcs */
+Check function
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
-
-/* Sort_algo funcs  */
+Sort function
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
