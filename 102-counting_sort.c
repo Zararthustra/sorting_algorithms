@@ -78,7 +78,7 @@ void counting_sort(int *array, size_t size)
 	int max_val;
 	int position;
 
-	if (array == NULL)
+	if (size < 2 || array == NULL)
 		return;
 	input_array = copy_array(array, size);
 	max_val = get_max_value(array, size);
