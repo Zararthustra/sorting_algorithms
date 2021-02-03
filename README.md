@@ -3,6 +3,7 @@
 # Function
 
 Bubble sort : Function that sorts an array of integers in ascending order using the Bubble sort algorithm.
+
 Insertion sort : Function that sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm.
 Selection sort : Function that sorts an array of integers in ascending order using the Selection sort.
 Quick sort : Function that sorts an array of integers in ascending order using the Quick sort algorithm.
